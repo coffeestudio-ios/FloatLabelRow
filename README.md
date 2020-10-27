@@ -90,25 +90,13 @@ You can also experiment and learn with the *FloatLabelRow Playground* which is c
 
 ## Installation
 
-#### CocoaPods
+#### Swift Package Manager
 
-[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
+Swift Package Manager is a tool for managing the distribution of Swift code.
 
-To install FloatLabelRow, simply add the following line to your Podfile:
+After you set up your Package.swift manifest file, you can add FloatLabelRow as a dependency by adding it to the dependencies value of your Package.swift.
 
-```ruby
-pod 'FloatLabelRow', '~> 1.0'
-```
-
-#### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.
-
-To install FloatLabelRow, simply add the following line to your Cartfile:
-
-```ogdl
-github "EurekaCommunity/FloatLabelRow" ~> 1.0
-```
+dependencies: [ .package(url: "https://github.com/coffeestudio-ios/FloatLabelRow.git", from: "1.1.0") ]
 
 ## Author
 
